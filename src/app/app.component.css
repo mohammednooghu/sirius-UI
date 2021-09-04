@@ -1,0 +1,267 @@
+.headerStyle
+{
+    background: linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(19,51,87,1) 50%);
+    color: white;
+    /* height: 10vh; */
+    text-align: center;
+    /* font-size: 24px; */
+    padding: 10px;
+}
+.countdown{
+    font-weight: 600;
+    margin-top: 5px;
+}
+.menubar{
+    display: flex;
+    justify-content: end;
+}
+.menuItem{
+    padding: 25px;
+}
+.welcome{
+    flex-direction: row;
+    display: flex;
+    justify-content: space-around;
+    padding-top: 30px;
+    width: 89%;
+    margin: auto;
+    height: 68vh
+}
+.welcomeImg{
+    height: 70%;
+}
+.imgContainer{
+    width: 35%;
+}
+.btnPrimary{
+    background: linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(19,51,87,1) 50%);
+    color: white; 
+    font-size: 15px;
+    padding: 15px;
+    width: 34%;
+    border-radius: 5px;
+    font-weight: 600;
+    cursor: pointer;
+}
+.travelDescHeading{
+    font-size: 45px;
+    font-weight: bold;
+    margin-top: 15%;
+}
+.travelDesc{
+    max-width: 41%;
+    font-size: 20px;
+}
+.weatherHeading{
+    background: rgba(19,51,87,1);
+   
+    padding: 15px;
+    font-size: larger;
+    color: white;
+    font-weight: 600;
+}
+
+.weatherItems{
+    display: flex;
+    margin-bottom: 25px;
+    
+}
+.item{
+    width: 25%;
+    text-align: center;
+    color: white;
+    padding: 25px;
+}
+.itemcolor0{
+    background-color: #0D7E88;
+  
+}
+.itemcolor1{
+    background-color: #D09378;
+  
+}
+.itemcolor2{
+    background-color: #405B5D;
+    
+}
+.itemcolor3{
+    background-color: #74A748;
+   
+}
+.city{
+    font-size: 25px;
+}
+.weathericon{
+    width: 50px;
+}
+.celcius{
+    font-size: 100px;
+}
+
+.destinationHeading{
+    color:rgba(19,51,87,1);
+    font-weight: bold;
+    font-size: 24px;
+}
+.destinationImg{
+    display:flex;
+    max-width: 100%;
+  
+}
+
+.imageItem{
+    border-radius: 10px;
+    width: 100%;
+    height: 100%;
+}
+
+.destinationItem{
+    width: 100%;
+    height: 200px;
+ 
+    padding: 10px;
+}
+
+.promo{
+    max-width: 76%;
+    position: relative;
+    margin-top: 50px;
+}
+
+.promoText{
+    position: absolute;
+    top: 60%;
+    left: 13%;
+
+
+    color: white;
+    
+}
+.promoTextHeading{
+    font-size: 55px;
+    font-weight: 500;
+}
+.formContainer{
+    margin-top: 50px;
+
+    max-width: 42%;
+    margin-right: auto;
+    margin-left: auto;
+}
+.formHeading{
+    color:rgba(19,51,87,1);
+    font-weight: bold;
+    font-size: 35px;
+    text-align: center;
+}
+
+input{
+    width: 100%;
+    height: 30px;
+    border-color: #c2c2c23d;
+    border-radius: 5px;
+
+}
+
+.footer{
+    background: linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(19,51,87,1) 50%);
+    color: white;
+    padding: 25px 75px 25px 75px;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+}
+
+.list{
+    list-style-type: none;
+    margin: 0;
+    padding: 0px;
+}
+li{
+    padding: 10px 0px 10px 0px;
+}
+
+.text-danger{
+    color:red
+}
+
+.successmessage{
+    margin-top: 15px;
+    background: #66dc66;
+    padding: 7px;
+
+}
+.promocontent{
+    font-size: 30px;
+    margin: 0px;
+    font-weight: 500;
+}
+a {
+cursor: pointer;
+    text-decoration: none;
+  
+  }
+@media(min-width: 320px) and (max-width: 767px){
+   .menubar{
+    justify-content: center;
+   }
+   .menuItem{
+    padding: 20px;
+   }
+    .welcome{
+        flex-direction: column;
+        height: 90vh;
+        justify-content: center;
+        align-content: center;
+        
+    }
+.btnPrimary{
+    width: 35%;
+    margin-left: 32%;
+}
+.welcomeImg{
+    width: 91vw;
+}
+.travelDesc{
+    font-size: 20px;
+ 
+    display: flex;
+    flex-direction: column;
+    max-width: 100%;
+    text-align: center;
+}
+.travelDescHeading{
+    font-size: 20px;
+   
+    margin-top: 0px; 
+}
+.weatherContainer{
+    margin: 20px 20px 20px 20px;
+}
+.weatherItems{
+    flex-wrap: wrap;
+}
+.item{
+    padding: 26px;
+    width: 36%;
+}
+.celcius{
+    font-size: 50px;
+}
+.promoTextHeading{
+    font-size: 20px;
+}
+.promocontent{
+    font-size: 15px;
+}
+.footer{
+    flex-direction: column;
+    padding: 20px;
+}
+.formContainer{
+    max-width: 87%;
+}
+.formHeading{
+    font-size: 20px;
+}
+}
